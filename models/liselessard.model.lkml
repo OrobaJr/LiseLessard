@@ -1,4 +1,4 @@
-connection: "bigquery-poc"
+connection: "poc_lise"
 
 # include all the views
 include: "/views/**/*.view.lkml"
@@ -11,4 +11,3 @@ datagroup: liselessard_default_datagroup {
 persist_with: liselessard_default_datagroup
 
 explore: papa_for_po_c {}
-
